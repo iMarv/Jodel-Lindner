@@ -1,0 +1,21 @@
+{
+  "name": "lindner-jodel",
+  "version": "1.0.0",
+  "description": "Better overview for the AMA of Christian Lindner on Jodel",
+  "author": "Marvin Altemeier <marv.internetz@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "npm run build && npm run watch",
+    "build": "npm run build-ts && npm run tslint",
+    "build-ts": "tsc",
+    "watch": "tsc -w",
+    "tslint": "tslint -c tslint.json -p tsconfig.json",
+    "scrape": "node dist/scrape.js"
+  },
+  "devDependencies": {
+    "@types/cheerio": "^0.22.2",
+    "cheerio": "^1.0.0-rc.2",
+    "tslint": "^5.7.0",
+    "typescript": "^2.5.2"
+  }
+}
