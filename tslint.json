@@ -34,6 +34,13 @@
             "check-separator",
             "check-type"
         ],
+        "typedef": [
+            true,
+            "arrow-call-signature",
+            "parameter",
+            "property-declaration",
+            "variable-declaration"
+        ],
         "typedef-whitespace": [
             true,
             {
@@ -55,6 +62,7 @@
         "no-trailing-whitespace": true,
         "no-null-keyword": true,
         "prefer-const": true,
-        "jsdoc-format": true
+        "jsdoc-format": true,
+        "no-any": true
     }
 }
