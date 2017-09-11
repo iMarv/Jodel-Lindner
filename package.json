@@ -1,7 +1,7 @@
 {
-  "name": "lindner-jodel",
+  "name": "jodel-scrape",
   "version": "1.0.0",
-  "description": "Better overview for the AMA of Christian Lindner on Jodel",
+  "description": "Scraper for AMA-jodel",
   "author": "Marvin Altemeier <marv.internetz@gmail.com>",
   "license": "MIT",
   "scripts": {
