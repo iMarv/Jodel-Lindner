@@ -1,4 +1,4 @@
-# Jodel-Parse
+# jodel-scraper
 
 ## Install
 
